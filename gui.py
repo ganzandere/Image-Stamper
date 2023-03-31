@@ -2,10 +2,11 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
-import customtkinter
+import customtkinter as ctk
 from PIL import Image, ImageDraw, ImageFont
 
 class App(ctk.CTk):
+    """App GUI Class."""
     def __init__(self):
         root = tk.Tk()
         root.withdraw()
