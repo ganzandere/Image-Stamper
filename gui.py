@@ -11,6 +11,10 @@ class App(ctk.CTk):
     """App GUI Class."""
     def __init__(self):
         super().__init__()
+
+        ctk.set_appearance_mode("dark")
+        ctk.set_default_color_theme("green")
+
         self.geometry(f"{c.WIN_W}x{c.WIN_H}")
         self.title("DK Image Stamper")
         self.minsize(c.WIN_W, c.WIN_H)
